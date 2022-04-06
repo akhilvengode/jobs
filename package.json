@@ -2,7 +2,9 @@
   "name": "joblisting",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://akhilvengode.github.io",
+  "homepage": "https://akhilvengode.github.io/jobs",
+  "main": "index.js",
+  "description": "job listing",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
