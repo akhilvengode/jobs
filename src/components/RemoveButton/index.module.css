@@ -1,0 +1,31 @@
+.remove-button {
+  display: inline-flex;
+  overflow: hidden;
+  border-radius: 4px;
+  color: var(--primary);
+  background-color: var(--cyan-background);
+}
+
+.remove-button__text {
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.remove-button__button {
+  border: none;
+  background-color: var(--primary);
+  color: var(--cyan-light);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 300ms;
+  width: 35px;
+}
+
+.remove-button__button:hover {
+  background-color: var(--dark-cyan);
+}

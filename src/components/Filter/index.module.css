@@ -1,0 +1,25 @@
+.filter {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  background-color: white;
+  padding: 1rem;
+}
+
+.filter__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter__list > div {
+  margin-bottom: 0.8rem;
+}
+
+@media (min-width: 376px) {
+  .filter__list > div {
+    margin-bottom: 0;
+  }
+}

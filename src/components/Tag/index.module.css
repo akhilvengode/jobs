@@ -1,0 +1,19 @@
+.tag {
+  border-radius: 100px;
+  font-size: 0.6rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--cyan-light);
+  padding: 0.5rem 0.8rem;
+}
+
+.tag--primary {
+  background-color: var(--primary);
+}
+
+.tag--secondary {
+  background-color: var(--dark-cyan);
+}

@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  --primary: hsl(180, 29%, 50%);
+  --dark-cyan: hsl(180, 14%, 20%);
+  --cyan-background: hsl(180, 52%, 96%);
+  --cyan-light: hsl(180, 31%, 95%);
+  --dark-cyan-2: hsl(180, 8%, 52%);
+}
+
+body {
+  margin: 0;
+  font-family: "Spartan", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

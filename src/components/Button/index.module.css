@@ -1,0 +1,37 @@
+.button {
+  padding: 0.5rem;
+  color: var(--primary);
+  background-color: var(--cyan-background);
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 300ms;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: var(--primary);
+  color: var(--cyan-light);
+}
+
+.button--no-background {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.button--no-background:hover {
+  background-color: transparent;
+  color: var(--primary);
+}
+
+.button--disabled {
+  background-color: lightgrey;
+  color: #b1b1b1;
+  cursor: not-allowed;
+}
+
+.button--disabled:hover {
+  background-color: lightgrey;
+  color: #b1b1b1;
+}

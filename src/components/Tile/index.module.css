@@ -1,0 +1,41 @@
+.tile {
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 2px 2px 15px #dbebeb, -2px -2px 15px #dbebeb;
+  padding: 2rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  transition: border 300ms;
+}
+
+.tile:hover {
+  border-left: 4px solid var(--primary);
+}
+
+.tile__logo {
+  display: inline-block;
+  position: absolute;
+  min-width: 0;
+  width: 50px;
+  height: 50px;
+  top: -25px;
+}
+
+.tile__logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.tile__content {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+@media (min-width: 376px) {
+  .tile__logo {
+    position: static;
+    min-width: 85px;
+    height: 85px;
+  }
+}

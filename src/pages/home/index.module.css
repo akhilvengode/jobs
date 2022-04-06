@@ -1,0 +1,39 @@
+.home__tiles {
+  margin: 8rem auto;
+}
+
+.home__tiles > section {
+  margin-bottom: 4rem;
+}
+
+.home__filter {
+  position: absolute;
+  top: 124px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 300px;
+  width: 90%;
+  box-shadow: 0 8px 7px #dbebeb;
+}
+
+@media (min-width: 376px) {
+  .home__tiles {
+    width: 70%;
+    margin: 4rem auto;
+  }
+
+  .home__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .home__tiles > section {
+    margin-bottom: 2rem;
+  }
+
+  .home__filter {
+    width: 70%;
+    max-width: none;
+  }
+}
