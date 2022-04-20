@@ -1,6 +1,6 @@
 # Job listing App
 
-Simple UI which lists the available job openings. It supports a filter feature which is used to filer the list with respect to the technology.
+Simple UI which lists the available job openings. It supports a filter feature which is used to filter the list with respect to the technology.
 
 ## Available Scripts
 
