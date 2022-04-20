@@ -10,12 +10,12 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-between;
   align-items: center;
 }
 
 .filter__list > div {
   margin-bottom: 0.8rem;
+  margin-right: 1rem;
 }
 
 @media (min-width: 376px) {

@@ -19,6 +19,8 @@ const Home: React.FC = () => {
         languages.some((language) => filterList.has(language))
       );
       setJobs(filterd);
+    } else {
+      setJobs(data);
     }
   }, [filterList]);
 
